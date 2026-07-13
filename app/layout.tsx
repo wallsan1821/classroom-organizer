@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Classroom Organizer",
   description:
     "Organizador pessoal de atividades e materiais do Google Classroom para estudantes.",
