@@ -51,6 +51,14 @@ Não fazem parte da primeira versão:
 
 Projeto em fase inicial de planejamento e estruturação.
 
+## Como rodar localmente
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/wallsan1821/classroom-organizer.git
+cd classroom-organizer
+
 ## Documentação
 
 - [Escopo do produto](docs/product-scope.md)
