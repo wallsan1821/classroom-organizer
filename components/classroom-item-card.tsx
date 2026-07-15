@@ -1,19 +1,8 @@
+import { itemTypeLabels, statusLabels } from "@/lib/classroom-item-labels";
 import type { MockClassroomItem } from "@/lib/mock-classroom-items";
 
 type ClassroomItemCardProps = {
   item: MockClassroomItem;
-};
-
-const itemTypeLabels: Record<MockClassroomItem["type"], string> = {
-  COURSE_WORK: "Atividade",
-  MATERIAL: "Material",
-};
-
-const statusLabels: Record<MockClassroomItem["status"], string> = {
-  PENDING: "Pendente",
-  DOING: "Fazendo",
-  DONE: "Concluído",
-  ARCHIVED: "Arquivado",
 };
 
 export function ClassroomItemCard({ item }: ClassroomItemCardProps) {
