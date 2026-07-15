@@ -1,4 +1,4 @@
-import { ClassroomItemCard } from "@/components/classroom-item-card";
+import { DashboardContent } from "@/components/dashboard-content";
 import { mockClassroomItems } from "@/lib/mock-classroom-items";
 
 export default function DashboardPage() {
@@ -20,11 +20,7 @@ export default function DashboardPage() {
           </p>
         </div>
 
-        <div className="grid gap-4">
-          {mockClassroomItems.map((item) => (
-            <ClassroomItemCard key={item.id} item={item} />
-          ))}
-        </div>
+        <DashboardContent items={mockClassroomItems} />
       </section>
     </main>
   );
